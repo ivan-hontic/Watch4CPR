@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">Watch4CPR</string>
+    <string name="about_text">Ova aplikacija je namjenjena samo za informativne svrhe i ni u kojem slučaju će autor biti odgovoran za ikakav incident ili štetu kojeg bi korištenje ove aplikacije moglo prouzročiti.</string>
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="title_activity_cprcontainershort">CPRShortActivity</string>
+    <string name="startCprText">Start CPR</string>
+    <string name="callEmergency">Call emergency number</string>
+    <string name="settingButtonText">Postavke</string>
+    <string name="settingsTitleText">Odaberi jezik:</string>
+    <string name="aboutButtonText">O aplikaciji</string>
+    <string name="instructionsButtonText">Upute</string>
+    <string name="aboutTitleText">O aplikaciji</string>
+    <string name="instructionsTitleText">Upute za korištenje</string>
+    <string name="instruction1">\u2022 Koraci za davanje umjetnog disanja su u nekoliko dijelova - svaki dio se može spustiti i podići povlačenjem prsta prema gore ili dolje</string>
+    <string name="instruction2">\u2022 Prikaz sljedećeg ili prethodnog dijela se ostvaruje povlačenjem prsta po ekranu - s desna prema lijevo se otvara sljedeći korak, a obrnutom akcijom prethodni korak</string>
+    <string name="instruction3">\u2022 Nakon zadnjeg koraka postoji mogućnost vraćanja na 4. i 5. korak klikom na gumb ili povlačenjem prsta ulijevo za prikaz koraka 4</string>
+    <string name="instruction4">\u2022 Za izlaz iz pregleda uputa za umjetno disanje pritisnite i držite prstom ekran sve dok se ne prikaže opcija za izlaz. Stisnite X ikonu i aplikacija će vas odvesti u glavni izbornik</string>
+    <string name="instruction5">\u2022 Za izlaz iz aplikacije(kada korisnik je izvan uputa za umjetno disanje) povlačite prstom udesno sve dok ne izađete iz aplikacije.</string>
+    <string name="author">Autor: Ivan Hontić</string>
+    <string name="supervisor">Mentor: Zlatko Stapić, Ph.D.</string>
+    <string name="contactInfo">Kontakt info: ivan.hontic@gmail.com</string>
+    <string name="title_activity_cprcontainer">CPRContainer</string>
+    <string name="quit_to_main">Quit to Menu?</string>
+    <string name="number_of_instructions">6</string>
+    <string name="step1TitleText">Korak 1</string>
+    <string name="step2TitleText">Korak 2</string>
+    <string name="step3TitleText">Korak 3</string>
+    <string name="step4TitleText">Korak 4</string>
+    <string name="step5TitleText">Korak 5</string>
+    <string name="step6TitleText">Korak 6</string>
+    <string name="step7TitleText">Kraj uputa</string>
+
+    <string name="step1Instruction1">1. Provjeri okruženje - uvjeri se da ne postoji nikakva opasnost</string>
+    <string name="step1Instruction2">2. Provjeri osobu - Potapšaj osobu i pitaj glasno: Jesi li dobro?</string>
+    <string name="step1Instruction3">3. Zamoli nekoga u blizini da pozove Hitnu pomoć</string>
+
+    <string name="step2Instruction1">1. Otvoriti dišni put - Polegnuti osobu na leđa, nagnuti glavu prema iza lagano podižući bradu</string>
+
+    <string name="step3Instruction1">1. Provjeriti disanje - Pažljivo provjeriti znakove disanja(ne više od 10 sekundi)</string>
+    <string name="step3Instruction2">2. Ako nema uočenih znakova disanja nastavite sa umjetnim disanjem</string>
+
+    <string name="step4Instruction1">1. Puhanje zraka 1 put - Prstima zatvorite nos. Stavite usta na usta zatvarajući sve rupe</string>
+    <string name="step4Instruction2">2. Pratiti da li se prsa podižu. Ako se ne podižu, opet pažljivo namjestite glavu kako biste otvorili dišni put, a nakon toga unesrećenom upuhnite zrak još 1 put</string>
+
+    <string name="step5Instruction1">1. Masaža srca: Kleknite sa strane unesrećenog u blizini prsa. Stavite ruku 2 cm iznad mjesta gdje se spajaju rebra i prsni koš u obliku slova V. Drugu ruku stavite na prvu</string>
+    <string name="step5Instruction2">2. Nagnite se iznad osobe i pritisnite ravno dolje prema prsima koristeći samo dlanove ruku. Držite ruke ravno. Pritisnite prsni koš 4-5 cm. Masirajte brzinom 100 pritisaka u minuti. Potpuno otpustite pritisak prije sljedećeg pritiska</string>
+    <string name="step5Instruction3">3. Masirajte snažno i masirajte brzo 30 puta!</string>
+
+    <string name="step6Instruction1">1. Radite cikluse od 30 masaža srca i nakon toga 2 upuhivanja zraka - bez pauze</string>
+    <string name="step6Instruction2">2. Pružajte umjetno disanje sve dok: Osoba ne pokazuje znakove života ili dok zdravstveni djelatnici ne preuzmu</string>
+
+    <string name="step7Instruction1">Korak 4 - Upuhivanje zraka</string>
+    <string name="step7Instruction2">Korak 5 - Masaža srca</string>
+
+    <string name="cprInstructionsShortButton">Brzi CPR</string>
+
+    <string name="step1TitleTextShort">Korak 1</string>
+    <string name="step2TitleTextShort">Korak 2</string>
+    <string name="step3TitleTextShort">Korak 3</string>
+    <string name="step4TitleTextShort">Korak 4</string>
+    <string name="number_of_instructionsShort">4</string>
+
+    <string name="step1Instruction1Short">Otvoriti dišni put</string>
+    <string name="step2Instruction1Short">Puhanje zraka 2 puta</string>
+    <string name="step3Instruction1Short">Masaža srca - 30 puta brzo</string>
+    <string name="step4Instruction1Short">Radite cikluse od 30 masaža srca i 2 upuhivanja zraka - bez pauze</string>
+
+
+</resources>

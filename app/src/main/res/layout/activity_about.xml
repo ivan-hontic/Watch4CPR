@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary"
+
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+
+    tools:context="hr.foi.hontic.ivan.watch4cpr.Main.AboutActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+
+
+        app:layout_box="right|left">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <TextView
+                android:id="@+id/textTitleAbout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:text="@string/aboutTitleText"
+                android:textColor="@color/icons"
+
+                android:textSize="25dp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/textAuthor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="6dp"
+                android:layout_below="@id/textTitleAbout"
+                android:text="@string/author"
+                android:textColor="@color/icons">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/textSupervisor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_below="@id/textAuthor"
+                android:text="@string/supervisor"
+                android:textColor="@color/icons">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/textContact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_below="@id/textSupervisor"
+                android:text="@string/contactInfo"
+                android:textColor="@color/icons">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/textAbout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_below="@id/textContact"
+                android:layout_marginBottom="40dp"
+                android:text="@string/about_text"
+                android:textColor="@color/icons">
+
+            </TextView>
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

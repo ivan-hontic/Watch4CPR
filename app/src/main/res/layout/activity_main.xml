@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.wearable.view.BoxInsetLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary"
+    tools:context=".Main.MainActivity"
+    tools:deviceIds="wear">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+
+
+        app:layout_box="right|left">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_box="all">
+
+
+            <Button
+                android:id="@+id/cprInstructionsButton"
+                android:layout_width="130dp"
+                android:layout_height="45dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/button_corners"
+                android:onClick="openCPRContainer"
+                android:text="@string/startCprText"
+                android:textColor="@color/icons" />
+
+            <Button
+                android:id="@+id/cprInstructionsShortButton"
+                android:layout_width="130dp"
+                android:layout_height="45dp"
+                android:layout_below="@id/cprInstructionsButton"
+                android:layout_centerHorizontal="true"
+
+                android:layout_marginTop="15dp"
+                android:background="@drawable/button_corners"
+                android:onClick="openShortCPR"
+                android:text="@string/cprInstructionsShortButton"
+                android:textColor="@color/red" />
+
+            <Button
+                android:id="@+id/settingsButton"
+                android:layout_width="130dp"
+                android:layout_height="45dp"
+                android:layout_below="@id/cprInstructionsShortButton"
+                android:layout_centerHorizontal="true"
+
+                android:layout_marginTop="15dp"
+                android:background="@drawable/button_corners"
+                android:onClick="openSettingsActivity"
+                android:text="@string/settingButtonText"
+                android:textColor="@color/icons" />
+
+            <Button
+                android:id="@+id/instructionsButton"
+                android:layout_width="130dp"
+                android:layout_height="45dp"
+                android:layout_below="@id/settingsButton"
+                android:layout_centerHorizontal="true"
+
+                android:layout_marginTop="15dp"
+                android:background="@drawable/button_corners"
+                android:onClick="openInstructions"
+                android:text="@string/instructionsButtonText"
+                android:textColor="@color/icons" />
+
+
+            <Button
+                android:id="@+id/aboutButton"
+                android:layout_width="130dp"
+                android:layout_height="45dp"
+                android:layout_below="@id/instructionsButton"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="30dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/button_corners"
+                android:onClick="openAboutActivity"
+                android:text="@string/aboutButtonText"
+                android:textColor="@color/icons" />
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</android.support.wearable.view.BoxInsetLayout>

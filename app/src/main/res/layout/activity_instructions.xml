@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary"
+
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+
+    tools:context="hr.foi.hontic.ivan.watch4cpr.Main.InstructionsActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+
+
+        app:layout_box="right|left">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            >
+
+            <TextView
+                android:id="@+id/textTitleAbout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:text="@string/instructionsTitleText"
+                android:textColor="@color/icons"
+
+                android:textSize="25dp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/textAuthor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="6dp"
+                android:layout_below="@id/textTitleAbout"
+                android:text="@string/instruction1"
+                android:textColor="@color/icons">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/textSupervisor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_below="@id/textAuthor"
+                android:text="@string/instruction2"
+                android:textColor="@color/icons">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/textContact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_below="@id/textSupervisor"
+                android:text="@string/instruction3"
+                android:textColor="@color/icons">
+
+            </TextView>
+            <TextView
+                android:id="@+id/textInst4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_below="@id/textContact"
+                android:text="@string/instruction4"
+                android:textColor="@color/icons">
+
+            </TextView>
+            <TextView
+                android:id="@+id/textInst5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_below="@id/textInst4"
+                android:text="@string/instruction5"
+                android:textColor="@color/icons"
+                android:layout_marginBottom="45dp">
+
+            </TextView>
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

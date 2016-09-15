@@ -1,0 +1,85 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary"
+    tools:context="hr.foi.hontic.ivan.watch4cpr.Main.Fragments.Step3ShortFragment">
+
+    <ScrollView
+        android:id="@+id/probaScroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+
+
+        app:layout_box="right|left">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin">
+
+            <TextView
+                android:id="@+id/textTitleStep"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:text="@string/step3TitleTextShort"
+                android:textColor="@color/icons"
+
+                android:textSize="25dp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/inst1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_below="@id/textTitleStep"
+                android:layout_marginTop="10dp"
+                android:text="@string/step3Instruction1Short"
+                android:textColor="@color/icons"
+                android:textSize="21dp">
+
+            </TextView>
+
+            <ImageView
+                android:id="@+id/inst4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/inst1"
+                android:layout_marginTop="-10dp"
+                android:src="@drawable/cpr3"
+                android:layout_marginBottom="-25dp"  />
+
+
+            <TextView
+                android:id="@+id/instNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/inst4"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="16dp"
+                android:text=""
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="12dp">
+
+            </TextView>
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+    <android.support.wearable.view.DismissOverlayView
+        android:id="@+id/dismiss_overlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
+</FrameLayout>

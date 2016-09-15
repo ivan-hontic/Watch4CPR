@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">Watch4CPR</string>
+    <string name="about_text">This application is only for informational purposes and in no event will author be liable for any incidental, indirect, consequential or any other damages whatsoever arising out of the use of this product.</string>
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="title_activity_cprcontainershort">CPRShortActivity</string>
+    <string name="startCprText">Start CPR</string>
+    <string name="callEmergency">Call emergency number</string>
+    <string name="settingButtonText">Settings</string>
+    <string name="settingsTitleText">Choose language:</string>
+    <string name="aboutButtonText">About</string>
+    <string name="instructionsButtonText">Instructions</string>
+    <string name="aboutTitleText">About</string>
+    <string name="instructionsTitleText">How to use</string>
+    <string name="instruction1">\u2022 CPR instructions are shown in 6 steps - every step is scrollable with finger</string>
+    <string name="instruction2">\u2022 User swipes with finger over the screen to open next or previous step - swiping to right opens previous step if available, swiping to the left opens next step</string>
+    <string name="instruction3">\u2022 After all steps are finished user can go back to step 4 or step 5 by clicking a button or swiping to the left to show step 4</string>
+    <string name="instruction4">\u2022 To exit the CPR steps user has to long press on the screen until quit option appears. If user presses the X icon that will take him to the main menu.</string>
+    <string name="instruction5">\u2022 To exit the application - while not glancing through CPR steps - swipe to the right until you are out.</string>
+    <string name="author">Author: Ivan Hontić</string>
+    <string name="supervisor">Supervisor: Zlatko Stapić, Ph.D.</string>
+    <string name="contactInfo">Contact info: ivan.hontic@gmail.com</string>
+    <string name="title_activity_cprcontainer">CPRContainer</string>
+    <string name="quit_to_main">Quit to Menu?</string>
+    <string name="number_of_instructions">6</string>
+    <string name="step1TitleText">Step 1</string>
+    <string name="step2TitleText">Step 2</string>
+    <string name="step3TitleText">Step 3</string>
+    <string name="step4TitleText">Step 4</string>
+    <string name="step5TitleText">Step 5</string>
+    <string name="step6TitleText">Step 6</string>
+    <string name="step7TitleText">End of instructions</string>
+
+    <string name="step1Instruction1">1. Check the scene - Make sure the scene is safe</string>
+    <string name="step1Instruction2">2. Check the person - Tap the person on the shoulder and shout: Are you OK?</string>
+    <string name="step1Instruction3">3. Ask a bystander to call Emergency services</string>
+
+    <string name="step2Instruction1">1. Open the airway - With the person lying on his or her back, tilt the head back slightly to lift the chin.</string>
+
+    <string name="step3Instruction1">1. Check for breathing - Listen carefully for sounds of breathing(10 seconds max)</string>
+    <string name="step3Instruction2">2. If there is no breathing continue with CPR.</string>
+
+    <string name="step4Instruction1">1. Rescue Breath 1x - Pinch the nose shut. Forming a tight seal, place your mouth over the person’s open mouth</string>
+    <string name="step4Instruction2">2. See if the chest rises. If it doesn’t, do head tilt and chin lift again. Give the 2nd full breath for 1 second</string>
+
+    <string name="step5Instruction1">1. Chest Compressions: Kneel at the person’s side near the chest. Place one hand 2 cm above the V where the ribs join the breastbone. Place the other hand on top of the one already in place</string>
+    <string name="step5Instruction2">2. Lean over the person and press straight down on the chest using only the palms of your hands. Keep your arms straight. Depress the middle of the chest between the nipples about 4-5 cm. Give about 100 compressions a minute. Relax pressure completely after each compression.</string>
+    <string name="step5Instruction3">3. Push hard and push fast 30x!</string>
+
+    <string name="step6Instruction1">1. Give cycles of 30 chest compressions and 2 rescue breaths - without a break</string>
+    <string name="step6Instruction2">2. Give CPR  until: The person moves or medical help takes over</string>
+
+    <string name="step7Instruction1">Step 4 - Rescue Breath</string>
+    <string name="step7Instruction2">Step 5 - Chest Compressions</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="title_activity_instructions">InstructionsActivity</string>
+
+
+    <string name="cprInstructionsShortButton">Fast CPR</string>
+
+    <string name="step1TitleTextShort">Step 1</string>
+    <string name="step2TitleTextShort">Step 2</string>
+    <string name="step3TitleTextShort">Step 3</string>
+    <string name="step4TitleTextShort">Step 4</string>
+    <string name="number_of_instructionsShort">4</string>
+
+    <string name="step1Instruction1Short">Open air way</string>
+    <string name="step2Instruction1Short">Give 2 rescue breaths</string>
+    <string name="step3Instruction1Short">Chest Compressions - 30x fast</string>
+    <string name="step4Instruction1Short">Repeat cycles of 30 chest compressions and 2 rescue breaths - without a break</string>
+
+
+</resources>
